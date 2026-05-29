@@ -18,7 +18,8 @@ Step 4:
 End the Program
 
 ## Program:
-```import os
+```
+import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 
 import numpy as np
@@ -29,7 +30,8 @@ a = np.array([[-2, 2, -3],
 
 eigen_values, eigen_vectors = np.linalg.eig(a)
 
-print("Eigen values are", eigen_values, "and Eigen Vectors are", eigen_vectors)```
+print("Eigen values are", eigen_values, "and Eigen Vectors are", eigen_vectors)
+```
 
 ## Output:
 <img width="1286" height="332" alt="Screenshot 2026-05-29 084814" src="https://github.com/user-attachments/assets/b271bd5b-1661-45e8-a84b-3efde204f04c" />
